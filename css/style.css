@@ -42,12 +42,11 @@ ul a {
   font-weight: bold;
 }
 
-li 
+.main_header li 
 {
   display: inline-block;
   font-size: 14px;
   margin-top: 13px;
-  width: 20%;
   vertical-align: top;
   text-align: center;
 
@@ -89,13 +88,17 @@ li
 
 .main_header li:nth-child(3)
 {
-  margin-right: 8px;
+  margin-left: 30px;
 }
 
-.main_header .catalog_btn
+
+.main_header .catalog_btn 
 {
+ margin-left: 78px; 
   color:#918279;
 }
+
+.catalog1{margin-left: 78px; }
 
 
 .main-navigation
@@ -700,17 +703,13 @@ li
 
   .form-checkbox + .form-label {
     position: relative;
-
     padding-left: 42px;
-
     font-size: 14px;
     line-height: 21px;
-
     cursor: pointer;
   }
   .form-checkbox + .form-label::before {
     content: '\2610';
-
     position: absolute;
     left: 0;
     top: 0;
@@ -732,6 +731,10 @@ li
     color: #6a6a6a;
     cursor: default;
   }
+
+.hotels-filters{
+  height: 216px;
+} 
 
 
   .hotels-filters h2 {
@@ -780,7 +783,7 @@ li
 
 
   .filter-cost {
-    /*padding-right: 6.5%;*/
+    
     text-align: center;
   }
   .cost-group {
@@ -1039,7 +1042,7 @@ li
 }
 
 .results_hotel_count{
-  margin-top: 33px;
+  margin-top: 20px;
   font-size: 21px;
   font-weight: 700;
   display: inline-block;
